@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0753A9502A3A487B0087B85E /* BaseballStatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753A94F2A3A487B0087B85E /* BaseballStatsApp.swift */; };
+		0753A9522A3A487B0087B85E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753A9512A3A487B0087B85E /* ContentView.swift */; };
+		0753A9542A3A487B0087B85E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0753A9532A3A487B0087B85E /* Assets.xcassets */; };
+		0753A9572A3A487B0087B85E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0753A9562A3A487B0087B85E /* Preview Assets.xcassets */; };
+		0753A9612A3A487C0087B85E /* BaseballStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753A9602A3A487C0087B85E /* BaseballStatsTests.swift */; };
+		0753A96B2A3A487C0087B85E /* BaseballStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753A96A2A3A487C0087B85E /* BaseballStatsUITests.swift */; };
+		0753A96D2A3A487C0087B85E /* BaseballStatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753A96C2A3A487C0087B85E /* BaseballStatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0753A95D2A3A487C0087B85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0753A9442A3A487B0087B85E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0753A94B2A3A487B0087B85E;
+			remoteInfo = BaseballStats;
+		};
+		0753A9672A3A487C0087B85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0753A9442A3A487B0087B85E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0753A94B2A3A487B0087B85E;
+			remoteInfo = BaseballStats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0753A94C2A3A487B0087B85E /* BaseballStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseballStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0753A94F2A3A487B0087B85E /* BaseballStatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballStatsApp.swift; sourceTree = "<group>"; };
+		0753A9512A3A487B0087B85E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0753A9532A3A487B0087B85E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0753A9562A3A487B0087B85E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0753A95C2A3A487C0087B85E /* BaseballStatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseballStatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0753A9602A3A487C0087B85E /* BaseballStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballStatsTests.swift; sourceTree = "<group>"; };
+		0753A9662A3A487C0087B85E /* BaseballStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseballStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0753A96A2A3A487C0087B85E /* BaseballStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballStatsUITests.swift; sourceTree = "<group>"; };
+		0753A96C2A3A487C0087B85E /* BaseballStatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballStatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0753A9492A3A487B0087B85E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0753A9592A3A487C0087B85E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0753A9632A3A487C0087B85E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0753A9432A3A487B0087B85E = {
+			isa = PBXGroup;
+			children = (
+				0753A94E2A3A487B0087B85E /* BaseballStats */,
+				0753A95F2A3A487C0087B85E /* BaseballStatsTests */,
+				0753A9692A3A487C0087B85E /* BaseballStatsUITests */,
+				0753A94D2A3A487B0087B85E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0753A94D2A3A487B0087B85E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0753A94C2A3A487B0087B85E /* BaseballStats.app */,
+				0753A95C2A3A487C0087B85E /* BaseballStatsTests.xctest */,
+				0753A9662A3A487C0087B85E /* BaseballStatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0753A94E2A3A487B0087B85E /* BaseballStats */ = {
+			isa = PBXGroup;
+			children = (
+				0753A94F2A3A487B0087B85E /* BaseballStatsApp.swift */,
+				0753A9512A3A487B0087B85E /* ContentView.swift */,
+				0753A9532A3A487B0087B85E /* Assets.xcassets */,
+				0753A9552A3A487B0087B85E /* Preview Content */,
+			);
+			path = BaseballStats;
+			sourceTree = "<group>";
+		};
+		0753A9552A3A487B0087B85E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0753A9562A3A487B0087B85E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0753A95F2A3A487C0087B85E /* BaseballStatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0753A9602A3A487C0087B85E /* BaseballStatsTests.swift */,
+			);
+			path = BaseballStatsTests;
+			sourceTree = "<group>";
+		};
+		0753A9692A3A487C0087B85E /* BaseballStatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0753A96A2A3A487C0087B85E /* BaseballStatsUITests.swift */,
+				0753A96C2A3A487C0087B85E /* BaseballStatsUITestsLaunchTests.swift */,
+			);
+			path = BaseballStatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0753A94B2A3A487B0087B85E /* BaseballStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0753A9702A3A487C0087B85E /* Build configuration list for PBXNativeTarget "BaseballStats" */;
+			buildPhases = (
+				0753A9482A3A487B0087B85E /* Sources */,
+				0753A9492A3A487B0087B85E /* Frameworks */,
+				0753A94A2A3A487B0087B85E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseballStats;
+			productName = BaseballStats;
+			productReference = 0753A94C2A3A487B0087B85E /* BaseballStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0753A95B2A3A487C0087B85E /* BaseballStatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0753A9732A3A487C0087B85E /* Build configuration list for PBXNativeTarget "BaseballStatsTests" */;
+			buildPhases = (
+				0753A9582A3A487C0087B85E /* Sources */,
+				0753A9592A3A487C0087B85E /* Frameworks */,
+				0753A95A2A3A487C0087B85E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0753A95E2A3A487C0087B85E /* PBXTargetDependency */,
+			);
+			name = BaseballStatsTests;
+			productName = BaseballStatsTests;
+			productReference = 0753A95C2A3A487C0087B85E /* BaseballStatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0753A9652A3A487C0087B85E /* BaseballStatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0753A9762A3A487C0087B85E /* Build configuration list for PBXNativeTarget "BaseballStatsUITests" */;
+			buildPhases = (
+				0753A9622A3A487C0087B85E /* Sources */,
+				0753A9632A3A487C0087B85E /* Frameworks */,
+				0753A9642A3A487C0087B85E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0753A9682A3A487C0087B85E /* PBXTargetDependency */,
+			);
+			name = BaseballStatsUITests;
+			productName = BaseballStatsUITests;
+			productReference = 0753A9662A3A487C0087B85E /* BaseballStatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0753A9442A3A487B0087B85E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0753A94B2A3A487B0087B85E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0753A95B2A3A487C0087B85E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0753A94B2A3A487B0087B85E;
+					};
+					0753A9652A3A487C0087B85E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0753A94B2A3A487B0087B85E;
+					};
+				};
+			};
+			buildConfigurationList = 0753A9472A3A487B0087B85E /* Build configuration list for PBXProject "BaseballStats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0753A9432A3A487B0087B85E;
+			productRefGroup = 0753A94D2A3A487B0087B85E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0753A94B2A3A487B0087B85E /* BaseballStats */,
+				0753A95B2A3A487C0087B85E /* BaseballStatsTests */,
+				0753A9652A3A487C0087B85E /* BaseballStatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0753A94A2A3A487B0087B85E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0753A9572A3A487B0087B85E /* Preview Assets.xcassets in Resources */,
+				0753A9542A3A487B0087B85E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0753A95A2A3A487C0087B85E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0753A9642A3A487C0087B85E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0753A9482A3A487B0087B85E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0753A9522A3A487B0087B85E /* ContentView.swift in Sources */,
+				0753A9502A3A487B0087B85E /* BaseballStatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0753A9582A3A487C0087B85E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0753A9612A3A487C0087B85E /* BaseballStatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0753A9622A3A487C0087B85E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0753A96D2A3A487C0087B85E /* BaseballStatsUITestsLaunchTests.swift in Sources */,
+				0753A96B2A3A487C0087B85E /* BaseballStatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0753A95E2A3A487C0087B85E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0753A94B2A3A487B0087B85E /* BaseballStats */;
+			targetProxy = 0753A95D2A3A487C0087B85E /* PBXContainerItemProxy */;
+		};
+		0753A9682A3A487C0087B85E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0753A94B2A3A487B0087B85E /* BaseballStats */;
+			targetProxy = 0753A9672A3A487C0087B85E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0753A96E2A3A487C0087B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0753A96F2A3A487C0087B85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0753A9712A3A487C0087B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BaseballStats/Preview Content\"";
+				DEVELOPMENT_TEAM = 47E3RRLYKE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.BaseballStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0753A9722A3A487C0087B85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BaseballStats/Preview Content\"";
+				DEVELOPMENT_TEAM = 47E3RRLYKE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.BaseballStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0753A9742A3A487C0087B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47E3RRLYKE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.BaseballStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballStats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BaseballStats";
+			};
+			name = Debug;
+		};
+		0753A9752A3A487C0087B85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47E3RRLYKE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.BaseballStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballStats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BaseballStats";
+			};
+			name = Release;
+		};
+		0753A9772A3A487C0087B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47E3RRLYKE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.BaseballStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaseballStats;
+			};
+			name = Debug;
+		};
+		0753A9782A3A487C0087B85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47E3RRLYKE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.BaseballStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaseballStats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0753A9472A3A487B0087B85E /* Build configuration list for PBXProject "BaseballStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0753A96E2A3A487C0087B85E /* Debug */,
+				0753A96F2A3A487C0087B85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0753A9702A3A487C0087B85E /* Build configuration list for PBXNativeTarget "BaseballStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0753A9712A3A487C0087B85E /* Debug */,
+				0753A9722A3A487C0087B85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0753A9732A3A487C0087B85E /* Build configuration list for PBXNativeTarget "BaseballStatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0753A9742A3A487C0087B85E /* Debug */,
+				0753A9752A3A487C0087B85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0753A9762A3A487C0087B85E /* Build configuration list for PBXNativeTarget "BaseballStatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0753A9772A3A487C0087B85E /* Debug */,
+				0753A9782A3A487C0087B85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0753A9442A3A487B0087B85E /* Project object */;
+}
