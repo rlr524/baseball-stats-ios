@@ -8,5 +8,6 @@
 import Foundation
 
 extension Date {
+    // swiftlint:disable:next force_unwrapping
     var age: Int { Calendar.current.dateComponents([.year], from: self, to: Date()).year! }
 }

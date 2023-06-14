@@ -11,8 +11,6 @@ import Foundation
 // https://statsapi.mlb.com/api/v1/people/660670
 // https://www.mlb.com/player/ronald-acuna-jr-660670
 
-import Foundation
-
 struct Player: Identifiable, Codable {
     let id: Int
     let firstName: String
